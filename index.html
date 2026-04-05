@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dimah Omar Aloufi - Software Engineering Student & Full-Stack Developer Portfolio">
+    <meta name="keywords" content="Dimah Aloufi, Software Engineer, Full-Stack Developer, Portfolio, Saudi Arabia">
+    <meta name="author" content="Dimah Omar Aloufi">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Dimah Omar Aloufi | Portfolio">
+    <meta property="og:description" content="Software Engineering Student & Full-Stack Developer">
+    <meta property="og:type" content="website">
+    
+    <title>Dimah Aloufi — Software Engineer</title>
+    
+    <!-- Favicon -->
+     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-brackets">
+        <div class="cursor-bracket tl"></div>
+        <div class="cursor-bracket tr"></div>
+        <div class="cursor-bracket bl"></div>
+        <div class="cursor-bracket br"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <span>&lt;</span>dimah<span>/&gt;</span><span class="logo-blink">_</span>
+        </div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-terminal">
+                <div class="terminal-header">
+                    <div class="terminal-dot red"></div>
+                    <div class="terminal-dot yellow"></div>
+                    <div class="terminal-dot green"></div>
+                </div>
+                <div class="terminal-content">
+                    <div class="terminal-line">
+                        <span class="terminal-prompt">~</span>
+                        <span class="terminal-command">whoami</span>
+                    </div>
+                    <div class="terminal-output">
+                        <span class="typing-name" id="typed-name"></span>
+                    </div>
+                    <div class="terminal-line" style="margin-top: 0.5rem;">
+                        <span class="terminal-prompt">~</span>
+                        <span class="terminal-command">cat role.txt</span>
+                    </div>
+                    <div class="terminal-output">Software Engineering Student | Full-Stack Developer</div>
+                </div>
+            </div>
+
+            <h1 class="hero-title">
+                Crafting<br>
+                <em>digital</em><br>
+                solutions
+            </h1>
+            
+            <p class="hero-subtitle">
+                I transform complex ideas into elegant, user-centered experiences. Currently seeking a summer internship to contribute to real-world software systems.
+            </p>
+
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Get in Touch →</a>
+                <a href="assets/Dimah_Aloufi_CV.pdf" class="btn btn-secondary" download>Download CV</a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span class="scroll-text">Scroll to explore</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-header">
+            <p class="section-number">// 01</p>
+            <h2 class="section-title" style="color: var(--cream);">About <em>Me</em></h2>
+        </div>
+        <div class="about-grid reveal">
+            <div class="about-text">
+                I don't just write code — I build <em>experiences</em> that people remember. Driven by curiosity and creativity, I love transforming complex ideas into simple, elegant solutions.
+                <br><br>
+                I'm looking for a space where I can <em>innovate</em>, learn fast, and make a real difference.
+            </div>
+            <div class="about-details">
+                <div class="detail-block">
+                    <h4>// Education</h4>
+                    <p>B.Sc Software Engineering<br>University of Jeddah</p>
+                </div>
+                <div class="detail-block">
+                    <h4>// GPA</h4>
+                    <p>4.9 / 5.0</p>
+                </div>
+                <div class="detail-block">
+                    <h4>// Email</h4>
+                    <p><a href="mailto:deemaoaloufi@gmail.com">deemaoaloufi@gmail.com</a></p>
+                </div>
+                <div class="detail-block">
+                    <h4>// Connect</h4>
+                    <p>
+                        <a href="https://github.com/deemaoaloufi" target="_blank">GitHub</a><br>
+                        <a href="https://www.linkedin.com/in/dimah-aloufi-9b4007255" target="_blank">LinkedIn</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="work">
+        <div class="section-header">
+            <p class="section-number">// 02</p>
+            <h2 class="section-title">Some of my <em>Projects</em></h2>
+        </div>
+        <div class="projects-list">
+            <!-- Project 1: Lamie -->
+            <a href="https://github.com/Bouthainh/LamiePlatform" target="_blank" class="project-item reveal">
+                <span class="project-number">01</span>
+                <div class="project-content">
+                    <h3>Lamie - لامع </h3>
+                    <p class="project-meta">Graduation Project • Full-Stack Developer</p>
+                    <p class="project-desc">
+                        AI-powered talent discovery platform for children aged 4-8. Built a full-stack web dashboard with MVC architecture, .NET backend with RESTful APIs, and integrated machine learning models to analyze behavioral patterns.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">.NET</span>
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">RESTful APIs</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">MVC</span>
+                        <span class="tech-tag">Jira</span>
+                    </div>
+                </div>
+                <span class="project-arrow">→</span>
+            </a>
+
+            <!-- Project 2: KidCoin -->
+            <a href="https://github.com/deemaoaloufi/KidCoin_App" target="_blank" class="project-item reveal">
+                <span class="project-number">02</span>
+                <div class="project-content">
+                    <h3>KidCoin</h3>
+                    <p class="project-meta">Android Mobile App • Lead Developer</p>
+                    <p class="project-desc">
+                        Cross-platform mobile app teaching children financial literacy through gamification. Implemented Firebase for real-time sync, authentication, and cloud storage with a child-friendly UI featuring interactive budgeting challenges.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Dart</span>
+                        <span class="tech-tag">Firebase</span>
+                    </div>
+                </div>
+                <span class="project-arrow">→</span>
+            </a>
+
+            <!-- Project 3: Baraka -->
+            <div class="project-item reveal">
+                <span class="project-number">03</span>
+                <div class="project-content">
+                    <h3>Baraka — بركة</h3>
+                    <p class="project-meta">IoT Project • KAU Robocon 2025</p>
+                    <p class="project-desc">
+                        An innovative IoT smart shelf designed to help children and elderly who struggle reading expiration dates. Uses NFC sensors to monitor product expiry dates and DHT sensors for temperature/humidity tracking, sending alerts when products approach expiration — reducing food waste and promoting responsible consumption.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">IoT</span>
+                        <span class="tech-tag">NFC Sensor</span>
+                        <span class="tech-tag">DHT Sensor</span>
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">Smart Home</span>
+                    </div>
+                </div>
+                <span class="project-arrow" style="visibility: hidden;">→</span>
+            </div>
+
+            <!-- Project 4: GDG Games -->
+            <a href="https://github.com/gdguj/GDG-WebDev" target="_blank" class="project-item reveal">
+                <span class="project-number">04</span>
+                <div class="project-content">
+                    <h3>GDG Games Platform</h3>
+                    <p class="project-meta">Web Platform • Full-Stack Developer</p>
+                    <p class="project-desc">
+                        Interactive games website for Google Developer Groups at University of Jeddah. Features hex-board letter games, image guessing, Family Feud-style quizzes, team management, difficulty levels, and real-time scoring.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">Canvas API</span> 
+                        <span class="tech-tag">TailwindCSS</span> 
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                </div>
+                <span class="project-arrow">→</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-header">
+            <p class="section-number">// 03</p>
+            <h2 class="section-title">Skills & <em>Tools</em></h2>
+        </div>
+        <div class="skills-grid reveal">
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <ul class="skill-list">
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>C#</li>
+                    <li>Dart</li>
+                    <li>HTML5 / CSS3</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Frameworks</h3>
+                <ul class="skill-list">
+                    <li>Flutter</li>
+                    <li>.NET</li>
+                    <li>MVC Architecture</li>
+                    <li>RESTful APIs</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Data Management</h3>
+                <ul class="skill-list">
+                    <li>Firebase</li>
+                    <li>MySQL</li>
+                    <li>SQL Server</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <ul class="skill-list">
+                    <li>Git & GitHub</li>
+                    <li>Jira</li>
+                    <li>Visual Studio</li>
+                    <li>IntelliJ IDEA</li>
+                    <li>Figma</li>
+                    <li>Postman</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Methodologies</h3>
+                <ul class="skill-list">
+                    <li>Agile / Scrum</li>
+                    <li>SDLC</li>
+                    <li>Test Case Design</li>
+                    <li>OOP</li>
+                    <li>Design Patterns</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <ul class="skill-list">
+                    <li>Arabic (Fluent)</li>
+                    <li>English (Fluent)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section>
+        <div class="section-header">
+            <p class="section-number">// 04</p>
+            <h2 class="section-title">Certifications & <em>Events</em></h2>
+        </div>
+        <div class="certs-grid reveal">
+            <div class="cert-card">
+                <p class="cert-type">Certification</p>
+                <h3>.NET Full-Stack Development</h3>
+                <p class="cert-org">Tuwaiq Academy</p>
+                <p class="cert-year">2025</p>
+                <p class="cert-desc">Intensive 80-hour bootcamp covering ASP.NET Core, C#, MVC architecture, RESTful APIs, Entity Framework, and SQL Server database development.</p>
+            </div>
+            <div class="cert-card">
+                <p class="cert-type">Certification</p>
+                <h3>Software Quality Assurance Testing</h3>
+                <p class="cert-org">Tuwaiq Academy</p>
+                <p class="cert-year">Jan - Feb 2025 • 80 Hours</p>
+                <p class="cert-desc">Comprehensive training in manual and automated testing, test case design, bug tracking, and QA methodologies following industry best practices.</p>
+                <div class="cert-links">
+                    <a href="assets/certificates/qa-cert.pdf" target="_blank" class="cert-link">View Certificate →</a>
+                    <a href="https://github.com/deemaoaloufi/QA-Testing-Tuwaiq-Bootcamp" target="_blank" class="cert-link">View Repository →</a>
+                </div>
+            </div>
+            <div class="cert-card">
+                <p class="cert-type">Exhibition</p>
+                <h3>KAU Robocon — Baraka Project</h3>
+                <p class="cert-org">King Abdulaziz University • May 6-8, 2025</p>
+                <p class="cert-year">Invention Exhibition</p>
+                <p class="cert-desc">Presented "Baraka" — an innovative IoT smart shelf using NFC and DHT sensors to monitor food expiration dates and storage conditions, helping reduce food waste.</p>
+                <a href="assets/certificates/baraka-cert.jpg" target="_blank" class="cert-link">View Certificate →</a>
+            </div>
+            <div class="cert-card">
+                <p class="cert-type">Hackathon</p>
+                <h3>Avithon 2025 — Team AeroTech</h3>
+                <p class="cert-org">GACA • General Authority of Civil Aviation</p>
+                <p class="cert-year">July 28, 2025</p>
+                <p class="cert-desc">Developed "Rushd" — an AI-powered system to optimize aircraft APU (Auxiliary Power Unit) usage, reducing fuel consumption by 28.6% and CO₂ emissions by 55.2% annually.</p>
+            </div>
+        </div>
+
+        <!-- Education Card -->
+        <div class="education-card reveal">
+            <h3>B.Sc Software Engineering</h3>
+            <p class="education-school">University of Jeddah</p>
+            <div class="education-meta">
+                <span>Expected Aug 2026</span>
+                <span>GPA: 4.9/5.0</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-grid">
+            <div class="reveal">
+                <div class="section-header">
+                    <p class="section-number">// 05</p>
+                    <h2 class="contact-heading">Let's build something <em>amazing</em> together.</h2>
+                </div>
+                <p class="contact-text">
+                    I'm currently seeking a summer internship where I can contribute to real-world projects, collaborate with talented teams, and grow as a software engineer.
+                </p>
+                <a href="mailto:deemaoaloufi@gmail.com" class="contact-email">
+                    deemaoaloufi@gmail.com
+                </a>
+            </div>
+
+            <div class="contact-terminal reveal">
+                <div class="terminal-header">
+                    <div class="terminal-dot red"></div>
+                    <div class="terminal-dot yellow"></div>
+                    <div class="terminal-dot green"></div>
+                </div>
+                <div class="contact-links">
+                    <a href="mailto:deemaoaloufi@gmail.com" class="contact-link-item">
+                        <span>→</span> deemaoaloufi@gmail.com
+                    </a>
+                    <a href="tel:+966500818350" class="contact-link-item">
+                        <span>→</span> +966 500 818 350
+                    </a>
+                    <a href="https://github.com/deemaoaloufi" target="_blank" class="contact-link-item">
+                        <span>→</span> github.com/deemaoaloufi
+                    </a>
+                    <a href="https://www.linkedin.com/in/dimah-aloufi-9b4007255" target="_blank" class="contact-link-item">
+                        <span>→</span> linkedin.com/in/dimah-aloufi
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Dimah Aloufi — Built with dedication</p>
+        <p>Jeddah, Saudi Arabia</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

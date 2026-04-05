@@ -1,0 +1,19 @@
+<svg width="100%" viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg"><defs><mask id="imagine-text-gaps-22gpj7" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="400" fill="white"/><rect x="36" y="17.842754364013672" width="217.20082092285156" height="16.830204010009766" fill="black" rx="2"/><rect x="-49" y="-68.94979858398438" width="82.90132904052734" height="117.8680648803711" fill="black" rx="2"/></mask></defs>
+  <text x="40" y="30" fill="#a0a0a0" font-family="monospace" font-size="11" letter-spacing="2" style="fill:rgb(160, 160, 160);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:monospace;font-size:11px;font-weight:400;text-anchor:start;dominant-baseline:auto">PROFILE PICTURE — OPTION 1</text>
+  
+  <!-- Profile pic frame (400x400 LinkedIn size) -->
+  <g transform="translate(340, 220)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <!-- Circle background -->
+    <circle cx="0" cy="0" r="150" fill="#0a0a0a" style="fill:rgb(10, 10, 10);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    
+    <!-- Stylized DA monogram -->
+    <text x="-45" y="25" fill="#f5f0e8" font-family="Georgia, serif" font-size="100" font-weight="400" style="fill:rgb(245, 240, 232);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:100px;font-weight:400;text-anchor:start;dominant-baseline:auto">D</text>
+    
+    <!-- Code brackets around -->
+    <path d="M-100 -60 L-120 0 L-100 60" fill="none" stroke="#4ade80" stroke-width="4" stroke-linecap="round" style="fill:none;stroke:rgb(74, 222, 128);color:rgb(255, 255, 255);stroke-width:4px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <path d="M100 -60 L120 0 L100 60" fill="none" stroke="#4ade80" stroke-width="4" stroke-linecap="round" mask="url(#imagine-text-gaps-22gpj7)" style="fill:none;stroke:rgb(74, 222, 128);color:rgb(255, 255, 255);stroke-width:4px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    
+    <!-- Gold accent line -->
+    <line x1="-40" y1="55" x2="60" y2="55" stroke="#c9a87c" stroke-width="3" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(201, 168, 124);color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+</svg>
