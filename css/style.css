@@ -584,7 +584,7 @@ section {
 }
 
 .project-arrow {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: var(--light-gray);
     transition: all 0.3s;
     padding-top: 0.3rem;
